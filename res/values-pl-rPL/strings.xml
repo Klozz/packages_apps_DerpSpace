@@ -21,35 +21,101 @@
     <string name="add">Dodaj</string>
     <string name="advanced">Zaawansowane</string>
     <string name="cancel">Anuluj</string>
+    <string name="default_text">Domyślny</string>
     <string name="dlg_ok">OK</string>
+    <string name="attention">Uwaga</string>
     <string name="loading">Wczytywanie…</string>
     <string name="reset">Resetuj</string>
+    <string name="reset_colors">Zresetuj kolory</string>
+    <string name="reset_android">Android</string>
+    <string name="text_title">Tekst</string>
+    <string name="icon_title">Ikona</string>
+    <string name="color_title">Kolor</string>
+    <string name="colors_title">Kolory</string>
     <!-- DerpSpace categories -->
+    <string name="icons_category">Ikony</string>
+    <string name="status_bar_category">Pasek stanu</string>
+    <string name="notifications_panel_category">Panel szybkich ustawień</string>
+    <string name="system_category">System</string>
+    <string name="lockscreen_category">Ekran blokady</string>
+    <string name="udfps_category">Odcisk palca pod wyświetlaczem</string>
+    <string name="listview">Widok listy</string>
     <!-- Frags -->
     <!-- General Tweaks -->
+    <string name="general_tweaks_title">Ogólne ustawienia</string>
     <!-- Lockscreen icons -->
+    <string name="lockscreen_shortcuts">Skróty ekranu blokady</string>
     <!-- Lockscreen UI -->
+    <string name="lockscreen_ui_title">Interfejs ekranu blokady</string>
     <!-- Lockscreen general category -->
+    <string name="general_category">Ogólne</string>
     <!-- Lockscreen charging category -->
+    <string name="charging_category">Ładowanie</string>
     <!-- Quicksettings media category -->
+    <string name="media_category">Odtwarzacz multimediów</string>
     <!-- Network Traffic -->
+    <string name="traffic_title">Wskaźniki ruchu</string>
     <!-- Misc DerpSpace -->
+    <string name="misc_derpspace_title">Różne</string>
     <!-- Notifications -->
+    <string name="notifications_title">Powiadomienia</string>
     <!-- Quick Settings -->
+    <string name="quick_settings_title">Szybkie Ustawienia</string>
     <!-- Status bar clock options -->
+    <string name="status_bar_clock_title">Ustawienia zegara</string>
     <!-- Quick Settings brightness slider -->
+    <string name="qs_brightness_slider_category">Suwak jasności</string>
     <!-- Quick Settings footer category -->
+    <string name="footer_category">Stopka</string>
     <!-- Quick Settings header category -->
+    <string name="header_category">Nagłówek</string>
     <!-- Statusbar Iten -->
+    <string name="statusbar_items_category">Elementy paska stanu</string>
     <!-- Customisation -->
+    <string name="customisation_title">Dostosowanie</string>
     <!-- Battery -->
+    <string name="battery_title">Bateria</string>
     <!-- Battery Settings -->
+    <string name="battery_settings_title">Ustawienia baterii</string>
     <!-- Battery Styles -->
+    <string name="battery_style_category_title">Style baterii</string>
+    <string name="battery_percent_title">Procent baterii</string>
     <!-- App info dialog -->
+    <string name="derpspace_dialog_title">Daj sobie pomóc!</string>
+    <string name="derpspace_dialog_message">Jeśli znajdziesz błąd z którymkolwiek z tych ustawień, zgłoś go na naszej grupie Telegram. MUSISZ dołączyć następujące informacje podczas publikowania raportu o błędzie:\n\n1. Logcat lub last_kmsg\n2. Kernel i używane moduły\n3. Przydatne informacje\n\nJeśli nie zgłosisz czegoś w odpowiedni sposób, NIE oczekuj napraw.</string>
+    <string name="derpspace_dialog_toast">PRZECZYTAJ CAŁOŚĆ!</string>
+    <string name="artwork_media_fade_level_summary">Zanikanie obrazu grafiki multimediów</string>
     <!-- QuickSettings haptic feedback -->
+    <string name="quick_settings_vibrate_title">Wibracje przy dotknięciu</string>
+    <string name="quick_settings_vibrate_summary">Wibracje przy dotknięciu kafelków szybkich ustawień</string>
     <!-- Tiles animation style  -->
+    <string name="qs_tile_animation_title">Animacje</string>
+    <string name="qs_tile_animation_style_title">Styl animacji</string>
+    <string name="qs_tile_animation_duration_title">Czas trwania animacji</string>
+    <string name="qs_tile_animation_interpolator_title">Szybkość animacji kafelków</string>
+    <string name="qs_tile_animation_style_off">Brak animacji</string>
+    <string name="qs_tile_animation_style_flip">Obróć</string>
+    <string name="qs_tile_animation_style_rotate">Obróć</string>
+    <string name="qs_tile_animation_duration_low">Niski</string>
+    <string name="qs_tile_animation_duration_default">Domyślny</string>
+    <string name="qs_tile_animation_duration_fast">Szybko</string>
+    <string name="qs_tile_animation_interpolator_linearInterpolator">Liniowy</string>
+    <string name="qs_tile_animation_interpolator_accelerateInterpolator">Przyspiesz</string>
+    <string name="qs_tile_animation_interpolator_decelerateInterpolator">Zwolnij</string>
+    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Przyspiesz i zwolnij</string>
+    <string name="qs_tile_animation_interpolator_bounceInterpolator">Odbicie</string>
+    <string name="qs_tile_animation_interpolator_overshootInterpolator">Przestrzelenie</string>
+    <string name="qs_tile_animation_interpolator_anticipateInterpolator">Przewidywanie</string>
+    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Przewidywanie i przestrzelenie</string>
+    <string name="qs_set_animation_style">%1$s</string>
+    <string name="qs_set_animation_duration">%1$s</string>
+    <string name="qs_set_animation_interpolator">%1$s</string>
     <!-- 4G icon -->
+    <string name="show_fourg_icon_title">Ikona 4G</string>
+    <string name="show_fourg_icon_summary">Wyświetl ikonę 4G zamiast ikony LTE</string>
     <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">Pokaż ikonę wyłączonej transmisji danych</string>
+    <string name="data_disabled_icon_summary">Pokaż znak X obok ikony sygnału, gdy dane mobilne są wyłączone</string>
     <!-- Lockscreen battery info indicator  -->
     <!-- Tiles on secure keyguard -->
     <!-- QS footer text -->

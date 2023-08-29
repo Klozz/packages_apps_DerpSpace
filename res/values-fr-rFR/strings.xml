@@ -98,28 +98,79 @@
     <string name="qs_tile_animation_style_rotate">Tourner</string>
     <string name="qs_tile_animation_duration_low">Faible</string>
     <string name="qs_tile_animation_duration_default">Par Défaut</string>
+    <string name="qs_tile_animation_duration_fast">Rapide</string>
+    <string name="qs_tile_animation_interpolator_linearInterpolator">Linéaire</string>
+    <string name="qs_tile_animation_interpolator_accelerateInterpolator">Accélèrer</string>
+    <string name="qs_tile_animation_interpolator_decelerateInterpolator">Ralentir</string>
+    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Accelérer/ralentir</string>
+    <string name="qs_tile_animation_interpolator_bounceInterpolator">Rebond</string>
+    <string name="qs_tile_animation_interpolator_overshootInterpolator">Dépasser</string>
+    <string name="qs_tile_animation_interpolator_anticipateInterpolator">Anticipation</string>
+    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Anticiper et surpasser</string>
+    <string name="qs_set_animation_style">%1$s</string>
+    <string name="qs_set_animation_duration">%1$s</string>
+    <string name="qs_set_animation_interpolator">%1$s</string>
     <!-- 4G icon -->
+    <string name="show_fourg_icon_title">Icône 4G</string>
+    <string name="show_fourg_icon_summary">Afficher l’icône de 4G plutôt que LTE</string>
     <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">Afficher l\'icône des données désactivées</string>
+    <string name="data_disabled_icon_summary">Afficher une croix à côté du signal lorsque les données sont désactivées</string>
     <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Informations de charge sur l\'écran de verrouillage</string>
+    <string name="lockscreen_battery_info_summary">Afficher l\'intensité, la puissance, la tension et la température de la batterie sur l\'écran de verrouillage pendant la charge</string>
     <!-- Tiles on secure keyguard -->
+    <string name="use_tiles_on_secure_keyguard_title">Nécessiter un déverrouillage pour utiliser des tuiles sensibles</string>
+    <string name="use_tiles_on_secure_keyguard_summary">Demander à déverrouiller l\'écran de déverrouillage lors de l\'utilisation de tuiles sensibles</string>
     <!-- QS footer text -->
+    <string name="qs_footer_text_show_title">Afficher le texte du bas de page des tuiles</string>
+    <string name="qs_footer_text_string_title">Personnaliser le texte de bas de page</string>
+    <string name="qs_footer_text_string_summary">Définir vide par défaut</string>
     <!-- Notifications general category -->
+    <string name="notifications_general_category_title">Général</string>
     <!-- Notification count -->
+    <string name="status_bar_notif_count_title">Nombre de notifications</string>
     <string name="status_bar_notif_count_summary">Afficher le nombre de notifications en attente</string>
     <!-- Units -->
+    <string name="unit_seconds">s</string>
+    <string name="unit_milliseconds">ms</string>
+    <string name="unit_pixels">dp</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the settings category for theme overlays. -->
+    <string name="theme_customization_category">Thème</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
+    <string name="theme_customization_font_title">Titre / Polices</string>
+    <string name="theme_customization_font_summary">Définir le style de la police système</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
+    <string name="theme_customization_icon_shape_title">Forme des icônes</string>
+    <string name="theme_customization_icon_shape_summary">Définir la forme des icônes système</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the system wide icon pack. -->
+    <string name="theme_customization_icon_pack_title">Pack d\'icônes</string>
+    <string name="theme_customization_icon_pack_summary">Définir un pack d\'icônes</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Label for the option that turns off customizations for a given category.-->
+    <string name="theme_customization_device_default">Par défaut</string>
     <!-- Custom Wi-Fi bar icons -->
+    <string name="theme_customization_wifi_icon_title">Icône Wifi</string>
+    <string name="theme_customization_wifi_icon_summary">Définir le style d\'icône Wifi</string>
     <!-- Custom Signal bar icons -->
+    <string name="theme_customization_signal_icon_title">Icône de signal</string>
+    <string name="theme_customization_signal_icon_summary">Définir le style d\'icône Wifi</string>
     <!-- Black theme -->
+    <string name="system_black_theme_title">Utiliser le thème noir</string>
+    <string name="system_black_theme_summary">Forcer les couleurs de fond noir</string>
     <!-- UI styles -->
+    <string name="theme_customization_ui_style_title">Style de l\'interface</string>
+    <string name="theme_customization_ui_style_summary">Définir un style personnalisé pour votre interface</string>
     <!-- Fonts -->
+    <string name="theme_customization_lock_clock_title">Style de l\'horloge de l\'écran de verrouillage</string>
+    <string name="theme_customization_lock_clock_summary">Définir le style de police de l\'horloge de l\'écran de verrouillage</string>
     <!-- Applications fragment -->
     <string name="search">Rechercher</string>
+    <string name="search_apps">Rechercher dans les applications</string>
     <!-- reTicker -->
+    <string name="reticker_title">reTicker</string>
+    <string name="reticker_summary">Remplacez vos notifications par une version redessinée des tickers !
+Slim et moins invasives qu\'une notification standard</string>
+    <string name="reticker_colored_title">Utiliser l\'arrière-plan coloré de l\'application</string>
     <string name="reticker_colored_summary">Remplacer la couleur d\'arrière-plan de reTicker par la couleur principale de l\'application de notification</string>
     <string name="reticker_landscape_only_title">Mode paysage uniquement</string>
     <string name="reticker_landscape_only_summary">Activer reTicker uniquement lorsque l\'appareil est en mode paysage</string>
@@ -185,8 +236,58 @@
     <string name="status_bar_logo_style_pacman">Pac-man</string>
     <string name="status_bar_logo_style_puma">Puma</string>
     <string name="status_bar_logo_style_rog">ROG</string>
+    <string name="status_bar_logo_style_spiderman">Spider-Man</string>
+    <string name="status_bar_logo_style_superman">Superman</string>
+    <string name="status_bar_logo_style_windows">Windows</string>
+    <string name="status_bar_logo_style_xbox">Xbox</string>
+    <string name="status_bar_logo_style_ghost">Fantôme</string>
+    <string name="status_bar_logo_style_ninja">Ninja</string>
+    <string name="status_bar_logo_style_robot">Robot</string>
+    <string name="status_bar_logo_style_ironman">Iron Man</string>
+    <string name="status_bar_logo_style_captain_america">Captain America</string>
+    <string name="status_bar_logo_style_flash">Flash</string>
+    <string name="status_bar_logo_style_tux">Tux</string>
+    <string name="status_bar_logo_style_ubuntu">Ubuntu</string>
+    <string name="status_bar_logo_style_mint">Linux Mint</string>
     <!-- Pulse music visualizer -->
+    <string name="pulse_help_policy_notice_title">À propos de Pulse</string>
+    <string name="pulse_help_policy_notice_summary">Pulse est un superbe égaliseur graphique lors de la lecture de la musique</string>
+    <string name="pulse_settings">Pulse</string>
+    <string name="pulse_settings_summary">Visualiseur audio pour la barre de navigation, l\'écran de verrouillage et l\'écran ambiant</string>
+    <string name="show_navbar_pulse_title">Pulse pour la barre de navigation</string>
+    <string name="show_navbar_pulse_summary">Visualisation audio sur la barre de navigation</string>
+    <string name="show_lockscreen_pulse_title">Pulse pour l\'écran de verrouillage</string>
+    <string name="show_lockscreen_pulse_summary">Visualiseur audio sur l\'écran de verrouillage</string>
+    <string name="show_ambient_pulse_title">Pulse sur l\'affichage ambiant</string>
+    <string name="show_ambient_pulse_summary">Égaliseur graphique audio sur l\'affichage ambiant</string>
+    <string name="pulse_render_mode_title">Mode de Rendu</string>
+    <string name="pulse_render_mode_fading_bars">Blocs en degradé</string>
+    <string name="pulse_render_mode_solid_lines">Lignes pleines</string>
+    <string name="pulse_legacy_mode_advanced_category">Paramètres du mode blocs en degradé</string>
+    <string name="pulse_custom_fudge_factor">Niveau d\'intensité</string>
+    <string name="pulse_lavalamp_speed_title">Vitesse de la lampe de lave</string>
+    <string name="pulse_solid_units_count">Nombre de lignes</string>
+    <string name="pulse_solid_units_opacity">Opacité des lignes</string>
+    <string name="pulse_solid_dimen_category">Paramètres du mode de lignes</string>
+    <string name="pulse_color_mode_title">Couleur </string>
+    <string name="pulse_color_accent">Couleur d\'accentuation</string>
+    <string name="pulse_color_custom">Personnalisé</string>
+    <string name="pulse_color_lava_lamp">Lampe de lave</string>
+    <string name="pulse_color_auto">Album</string>
+    <string name="pulse_color_user_title">Choisir une couleur</string>
+    <string name="pulse_smoothing_enabled_title">Activer le lissage</string>
+    <string name="pulse_smoothing_enabled_summary">Chaque barre est animée de manière plus fluide</string>
+    <string name="pulse_custom_dimen">Largeur de la barre</string>
+    <string name="pulse_custom_div">Espacement des barres</string>
+    <string name="pulse_filled_block_size">Taille des blocs</string>
+    <string name="pulse_empty_block_size">Espacement des blocs</string>
+    <string name="pulse_solid_units_rounded_title">Lignes pleines arrondies</string>
+    <string name="pulse_solid_units_rounded_summary">Arrondir les lignes solides</string>
     <!-- Udfps animations -->
+    <string name="udfps_recog_animation">Utiliser l\'animation UDFPS</string>
+    <string name="udfps_recog_animation_summary">Affiche une animation lors de la reconnaissance de l\'empreinte</string>
+    <string name="udfps_recog_animation_effect_title">Animation du capteur d\'empreinte</string>
+    <string name="udfps_recog_animation_effect_summary">Choisir l\'effet d\'animation</string>
     <!-- Udfps icon picker -->
     <string name="udfps_icon_picker_title">Icône du capteur d\'empreinte</string>
     <string name="udfps_icon_picker_summary">Choisir l\'icône d\'empreinte digitale</string>
@@ -246,7 +347,9 @@
     <string name="disable_fingerprint_ripple_effect_summary">Désactiver l\'effet d\'ondulation au déverrouillage</string>
     <!-- Charging animation -->
     <string name="charging_animation_title">Animation de charge</string>
+    <string name="charging_animation_summary">Affiche une animation lorsque l\'appareil est branché</string>
     <!-- Statusbar Clock background chip -->
+    <string name="statusbar_clock_chip_title">Puce d\'arrière-plan</string>
     <!-- Separate signal icons -->
     <!-- Android P animation style -->
     <!-- Monet settings -->
@@ -316,7 +419,41 @@
     <string name="qs_outline">Contour</string>
     <string name="qs_two_tone">Accent duochrome</string>
     <!-- Status bar - Battery -->
+    <string name="status_bar_battery_style_title">Style de batterie</string>
+    <string name="status_bar_battery_style_icon_portrait">Icône portrait</string>
+    <string name="status_bar_battery_style_icon_rlandscape">Icône paysage (droite)</string>
+    <string name="status_bar_battery_style_icon_landscape">Icône paysage (gauche)</string>
+    <string name="status_bar_battery_style_circle">Cercle</string>
+    <string name="status_bar_battery_style_dotted_circle">Cercle pointillé</string>
+    <string name="status_bar_battery_style_filled_circle">Cercle plein</string>
+    <string name="status_bar_battery_style_text">Texte</string>
+    <string name="status_bar_battery_style_hidden">Masqué</string>
+    <string name="status_bar_battery_style_icon_landscape_buddy">Capsule en mode paysage</string>
+    <string name="status_bar_battery_style_icon_landscape_line">Mode paysage uniquement</string>
+    <string name="status_bar_battery_style_icon_landscape_musku">IOS Portrait</string>
+    <string name="status_bar_battery_style_icon_landscape_pill">Mx Portrait</string>
+    <string name="status_bar_battery_style_icon_landscape_signal">Airoo en mode paysage</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_a">R en mode paysage Style A</string>
+    <string name="status_bar_battery_style_icon_landscape_style_a">L en mode paysage Style A</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_b">R en mode paysage Style B</string>
+    <string name="status_bar_battery_style_icon_landscape_style_b">L en mode paysage Style A</string>
+    <string name="status_bar_battery_style_icon_landscape_ios15">Paysage iOS 15</string>
+    <string name="status_bar_battery_style_icon_landscape_ios16">Paysage iOS 16</string>
+    <string name="status_bar_battery_style_icon_landscape_origami">Origami en mode paysage</string>
+    <string name="status_bar_battery_style_icon_landscape_miui_pill">MIUI pill</string>
+    <string name="status_bar_battery_percent_title">Pourcentage de la batterie</string>
+    <string name="status_bar_battery_percent_hidden">Masqué</string>
+    <string name="status_bar_battery_percent_text_inside">Dans l\'icône</string>
+    <string name="status_bar_battery_percent_text_next_right">A droite de l\'icône</string>
+    <string name="status_bar_battery_percent_text_next_left">A gauche de l\'icône</string>
+    <string name="status_bar_battery_text_charging_title">Pourcentage de la batterie lors de la charge</string>
+    <string name="status_bar_battery_text_charging_summary">Toujours afficher le pourcentage de la batterie lors de la charge</string>
     <!-- QS battery -->
+    <string name="qs_use_status_bar_battery_style">Même style que la barre d\'état</string>
     <!-- Brightness slider haptic feedback -->
+    <string name="qs_brightness_slider_haptic_title">Retour haptique</string>
+    <string name="qs_brightness_slider_haptic_summary">Fournir un retour haptique sur le changement de luminosité à l\'aide du curseur</string>
     <!-- Custom Data icons -->
+    <string name="theme_customization_data_title">Style d\'icône de données</string>
+    <string name="theme_customization_data_summary">Définir le style de l\'icône du signal réseau</string>
 </resources>

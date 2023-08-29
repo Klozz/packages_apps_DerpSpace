@@ -350,10 +350,58 @@ Slim et moins invasives qu\'une notification standard</string>
     <string name="charging_animation_summary">Affiche une animation lorsque l\'appareil est branché</string>
     <!-- Statusbar Clock background chip -->
     <string name="statusbar_clock_chip_title">Puce d\'arrière-plan</string>
+    <string name="statusbar_clock_chip_summary">Afficher la puce accentuée derrière l\'horloge</string>
+    <string name="solid_accent">Couleur d\'accentuation unie</string>
+    <string name="outline">Contour</string>
+    <string name="solid_accent_gradient">Gradient d\'accentuation de couleur unie</string>
+    <string name="solid_gradient">Côté dégradé. solide</string>
+    <string name="solid_gradient_corner">Accentuation du gradient solide</string>
+    <string name="solid_gradient_void">Vide dégradé</string>
+    <string name="solid_gradient_neumorph">Dégradé de Neumorphe</string>
+    <string name="solid_gradient_stroke">Tracé dégradé</string>
+    <string name="solid_accent_transperent">Accent transparent</string>
+    <string name="solid_gradient_light">Lumière dégradée</string>
+    <string name="solid_gradient_shape">Tracé dégradé</string>
+    <string name="solid_gradient_void_light">Lumière dégradée</string>
     <!-- Separate signal icons -->
+    <string name="separate_signal_icons_title">Icônes de signal séparées</string>
+    <string name="separate_signal_icons_summary">Afficher le signal et le WiFi séparément\Nécessite un redémarrage de l\'interface utilisateur</string>
     <!-- Android P animation style -->
+    <string name="pie_animation_style_title">Style d’animation Android P</string>
+    <string name="pie_animation_style_summary">Activer les animations Android P « Par défaut »</string>
     <!-- Monet settings -->
+    <string name="monet_settings_title">Paramètres avancés de monet</string>
+    <string name="monet_settings_summary">Paramètres supplémentaires pour personnaliser le moteur monet</string>
+    <string name="theme_style_title">Style de thème</string>
+    <string name="theme_style_tonal_spot">Tonal Spot (par défaut)</string>
+    <string name="theme_style_vibrant">Vibrant</string>
+    <string name="theme_style_expressive">Expressif</string>
+    <string name="theme_style_spritz">Spritz</string>
+    <string name="theme_style_rainbow">Arc-en-ciel</string>
+    <string name="theme_style_fruit_salad">Salade de fruits</string>
+    <string name="theme_style_muted">Muet</string>
+    <string name="theme_style_content">Contenu</string>
+    <string name="theme_style_monochromatic">Monochromatique</string>
+    <string name="color_source_title">Source de couleur</string>
+    <string name="color_source_both">Les deux (par défaut)</string>
+    <string name="color_source_home">Fond d\'écran d\'accueil</string>
+    <string name="color_source_lock">Fond d\'écran de verrouillage</string>
+    <string name="color_source_preset">Préréglages</string>
+    <string name="accent_color_title">Couleur d\'accentuation</string>
+    <string name="accent_color_summary">Remplacer la couleur d\'accentuation par défaut</string>
+    <string name="accent_background_title">Accentuation de l\'arrière-plan</string>
+    <string name="accent_background_summary">Choisir une couleur d\'accentuation différente pour l\'arrière-plan</string>
+    <string name="bg_color_title">Couleur de fond</string>
+    <string name="bg_color_summary">Remplacer la couleur d\'accentuation par défaut</string>
+    <string name="luminance_factor_title">Luminance</string>
+    <string name="luminance_factor_summary">Des valeurs plus élevées produisent des couleurs plus brillantes</string>
+    <string name="chroma_factor_title">Chroma</string>
+    <string name="chroma_factor_summary">Des valeurs plus élevées produisent des couleurs plus brillantes</string>
+    <string name="tint_background_title">Teinte de l\'arrière-plan</string>
+    <string name="tint_background_summary">Faire en sorte que la Luminance et la sélection Chroma affectent aussi les couleurs d\'arrière-plan</string>
     <!-- Statusbar colored icons -->
+    <string name="statusbar_colored_icons_title">Icônes colorées</string>
+    <string name="statusbar_colored_icons_summary">Utiliser les icônes des applications comme icônes de notification dans la barre d\'état</string>
     <!-- Wi-Fi Standard icon -->
     <string name="show_wifi_standard_icon_title">Afficher l\'icône du type Wi-Fi</string>
     <string name="show_wifi_standard_icon_summary">Afficher le type de Wi-Fi dans l\'indicateur de signal Wi-Fi</string>
@@ -418,7 +466,9 @@ Slim et moins invasives qu\'une notification standard</string>
     <string name="qs_styles_title">Thème de tuile des réglages rapides</string>
     <string name="qs_outline">Contour</string>
     <string name="qs_two_tone">Accent duochrome</string>
+    <string name="qs_shaded">Ombré</string>
     <!-- Status bar - Battery -->
+    <string name="status_bar_battery_category_title">Personnalisation de la batterie</string>
     <string name="status_bar_battery_style_title">Style de batterie</string>
     <string name="status_bar_battery_style_icon_portrait">Icône portrait</string>
     <string name="status_bar_battery_style_icon_rlandscape">Icône paysage (droite)</string>

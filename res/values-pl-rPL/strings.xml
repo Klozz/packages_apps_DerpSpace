@@ -117,24 +117,56 @@
     <string name="data_disabled_icon_title">Pokaż ikonę wyłączonej transmisji danych</string>
     <string name="data_disabled_icon_summary">Pokaż znak X obok ikony sygnału, gdy dane mobilne są wyłączone</string>
     <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Szczegóły ładowania na ekranie blokady</string>
+    <string name="lockscreen_battery_info_summary">Wyświetl na ekranie blokady podczas ładowania aktualne informacje o napięciu, mocy oraz temperaturze ładowania</string>
     <!-- Tiles on secure keyguard -->
+    <string name="use_tiles_on_secure_keyguard_title">Wymagaj odblokowania, aby używać wrażliwych kafelków</string>
+    <string name="use_tiles_on_secure_keyguard_summary">Poproś o odblokowanie ekranu blokady podczas używania wrażliwych kafelków</string>
     <!-- QS footer text -->
+    <string name="qs_footer_text_show_title">Pokaż tekst stopki w szybkich ustawieniach</string>
+    <string name="qs_footer_text_string_title">Dostosuj tekst stopki</string>
+    <string name="qs_footer_text_string_summary">Ustaw na pusty dla domyślnego #StayDerped</string>
     <!-- Notifications general category -->
+    <string name="notifications_general_category_title">Ogólne</string>
     <!-- Notification count -->
+    <string name="status_bar_notif_count_title">Licznik powiadomień</string>
     <!-- Units -->
+    <string name="unit_seconds">s</string>
+    <string name="unit_milliseconds">ms</string>
+    <string name="unit_pixels">dp</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the settings category for theme overlays. -->
+    <string name="theme_customization_category">Motywy</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
+    <string name="theme_customization_font_title">Czcionka główna</string>
+    <string name="theme_customization_font_summary">Ustaw styl czcionki systemowej</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
+    <string name="theme_customization_icon_shape_title">Kształt ikon</string>
+    <string name="theme_customization_icon_shape_summary">Ustaw kształt ikon systemowych</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the system wide icon pack. -->
+    <string name="theme_customization_icon_pack_title">Paczka ikon</string>
+    <string name="theme_customization_icon_pack_summary">Wybierz niestandardową paczkę ikon</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Label for the option that turns off customizations for a given category.-->
+    <string name="theme_customization_device_default">Domyślne ustawienia urządzenia</string>
     <!-- Custom Wi-Fi bar icons -->
+    <string name="theme_customization_wifi_icon_title">Ikona WiFi</string>
+    <string name="theme_customization_wifi_icon_summary">Ustaw styl ikon WiFi</string>
     <!-- Custom Signal bar icons -->
+    <string name="theme_customization_signal_icon_title">Ikona sygnału</string>
+    <string name="theme_customization_signal_icon_summary">Ustaw styl ikony sygnału</string>
     <!-- Black theme -->
+    <string name="system_black_theme_title">Użyj czarnego motywu</string>
+    <string name="system_black_theme_summary">Wymuś czarne kolory tła</string>
     <!-- UI styles -->
+    <string name="theme_customization_ui_style_title">Styl interfejsu</string>
+    <string name="theme_customization_ui_style_summary">Ustaw niestandardowy styl dla swojego interfejsu</string>
     <!-- Fonts -->
+    <string name="theme_customization_lock_clock_title">Czcionka zegara na ekranie blokady</string>
+    <string name="theme_customization_lock_clock_summary">Ustaw styl czcionki zegara na ekranie blokady</string>
     <!-- Applications fragment -->
     <string name="search">Wyszukiwanie</string>
+    <string name="search_apps">Wyszukaj aplikacje</string>
     <!-- reTicker -->
+    <string name="reticker_title">reTicker</string>
     <!-- Network traffic -->
     <!-- Media art -->
     <!-- Lock screen cover art -->

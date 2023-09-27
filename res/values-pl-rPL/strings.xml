@@ -167,12 +167,31 @@
     <string name="search_apps">Wyszukaj aplikacje</string>
     <!-- reTicker -->
     <string name="reticker_title">reTicker</string>
+    <string name="reticker_summary">Zastąp powiadomienia przeprojektowaną wersją naklejek. \nSmukłe i mniej inwazyjne niż standardowe powiadomienie</string>
+    <string name="reticker_colored_title">Użyj kolorowego tła aplikacji</string>
+    <string name="reticker_colored_summary">Zastąp kolor tła wyskakujących powiadomień reTicker przy użyciu głównego koloru aplikacji</string>
+    <string name="reticker_landscape_only_title">Tylko poziomy</string>
+    <string name="reticker_landscape_only_summary">Włącz pasek powiadomień reTicker tylko, gdy urządzenie jest w trybie poziomym</string>
     <!-- Network traffic -->
+    <string name="network_traffic_title">Wskaźnik ruchu sieciowego</string>
+    <string name="network_traffic_summary">Włącz lub wyłącz wskaźniki ruchu sieciowego</string>
+    <string name="network_traffic_state_title">Włącz „wskaźnik ruchu sieciowego”</string>
+    <string name="network_options_title">Ustawienia</string>
+    <string name="network_traffic_autohide_title">Ukryj wskaźnik ruch sieciowego przy braku aktywności</string>
+    <string name="network_traffic_autohide_summary">Ukryj gdy ruch sieciowy jest mniejszy niż 1 KB/s</string>
     <!-- Media art -->
+    <string name="lockscreen_media_art_options_title">Okładka albumu</string>
+    <string name="media_art_title">Okładka albumu</string>
+    <string name="media_art_summary">Wyświetlaj okładki albumów, gdy są dostępne</string>
     <!-- Lock screen cover art -->
+    <string name="lockscreen_media_blur_title">Poziom rozmycia okładki albumu</string>
     <!-- Clock position -->
     <!-- Clock AM/PM -->
+    <string name="status_bar_am_pm_title">Styl AM/PM zegara</string>
+    <string name="status_bar_am_pm_unavailable">24-godzinny zegar jest włączony</string>
     <!-- Clock show seconds -->
+    <string name="status_bar_clock_show_seconds_title">Pokaż sekundy zegara</string>
+    <string name="status_bar_clock_show_seconds_desc">Pokazuj godziny, minuty i sekundy</string>
     <!-- Statusbar lyric -->
     <!-- Statusbar logo -->
     <!-- Pulse music visualizer -->

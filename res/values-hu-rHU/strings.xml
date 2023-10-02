@@ -18,6 +18,12 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- General app strings -->
+    <string name="add">Hozzáadás</string>
+    <string name="advanced">Speciális</string>
+    <string name="cancel">Mégse</string>
+    <string name="dlg_ok">Rendben</string>
+    <string name="loading">Betöltés\u2026</string>
+    <string name="reset">Visszaállítás</string>
     <!-- DerpSpace categories -->
     <!-- Frags -->
     <!-- General Tweaks -->
@@ -61,6 +67,7 @@
     <!-- UI styles -->
     <!-- Fonts -->
     <!-- Applications fragment -->
+    <string name="search">Keresés</string>
     <!-- reTicker -->
     <!-- Network traffic -->
     <!-- Media art -->

@@ -101,12 +101,11 @@
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Visa data-inaktiverad ikon</string>
     <string name="data_disabled_icon_summary">Visa korsskylten bredvid signalfältet när data är inaktiverad</string>
+    <!-- Old mobile type icons -->
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Låsskärm laddningsinformation</string>
     <string name="lockscreen_battery_info_summary">Visa laddningsström, spänning, watt och batteritemperatur på låsskärmen vid laddning</string>
-    <!-- Tiles on secure keyguard -->
-    <string name="use_tiles_on_secure_keyguard_title">Kräv upplåsning för att använda känsliga brickor</string>
-    <string name="use_tiles_on_secure_keyguard_summary">Be att låsa upp låsskärmen vid användning av känsliga brickor</string>
+    <!-- QSTile requires unlocking before being accessible -->
     <!-- QS footer text -->
     <string name="qs_footer_text_show_title">Visa QS sidfotstext</string>
     <string name="qs_footer_text_string_title">Anpassa sidfotstext</string>
@@ -297,4 +296,5 @@
     <!-- QS battery -->
     <!-- Brightness slider haptic feedback -->
     <!-- Custom Data icons -->
+    <!-- Unlimited g00gle ph0t0s st0rage -->
 </resources>

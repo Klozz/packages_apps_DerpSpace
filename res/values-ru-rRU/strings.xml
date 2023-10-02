@@ -100,8 +100,9 @@
     <string name="qs_tile_animation_duration_default">По умолчанию</string>
     <!-- 4G icon -->
     <!-- Data disabled icon -->
+    <!-- Old mobile type icons -->
     <!-- Lockscreen battery info indicator  -->
-    <!-- Tiles on secure keyguard -->
+    <!-- QSTile requires unlocking before being accessible -->
     <!-- QS footer text -->
     <!-- Notifications general category -->
     <!-- Notification count -->
@@ -172,4 +173,5 @@
     <!-- QS battery -->
     <!-- Brightness slider haptic feedback -->
     <!-- Custom Data icons -->
+    <!-- Unlimited g00gle ph0t0s st0rage -->
 </resources>

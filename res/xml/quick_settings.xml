@@ -33,9 +33,9 @@
             android:disableDependentsState="true" />
 
         <org.derpfest.support.preferences.SecureSettingSwitchPreference
-            android:key="disable_secure_tiles_on_lockscreen"
-            android:title="@string/use_tiles_on_secure_keyguard_title"
-            android:summary="@string/use_tiles_on_secure_keyguard_summary"
+            android:key="qstile_requires_unlocking"
+            android:title="@string/qstile_requires_unlocking_title"
+            android:summary="@string/qstile_requires_unlocking_summary"
             android:dependency="secure_lockscreen_qs_disabled"
             android:defaultValue="true" />
 
@@ -45,11 +45,11 @@
             android:summary="@string/quick_settings_vibrate_summary"
             android:defaultValue="false"/>
 
-        <org.derpfest.support.preferences.CustomSystemSeekBarPreference
+        <org.derpfest.support.preferences.SystemSettingSeekBarPreference
             android:key="qs_transparency"
             android:title="@string/qs_transparency_title"
             android:summary="@string/qs_transparency_summary"
-            android:defaultValue="@*android:integer/config_qs_transparency"
+            android:defaultValue="85"
             settings:interval="1"
             settings:units="%"
             android:max="100"

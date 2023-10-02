@@ -146,13 +146,17 @@
     <string name="data_disabled_icon_title">Symbol für deaktivierte Mobildaten anzeigen</string>
     <string name="data_disabled_icon_summary">Zeigen Sie das Kreuz neben der Signalleiste an, wenn die Mobildaten deaktiviert sind</string>
 
+    <!-- Old mobile type icons -->
+    <string name="use_old_mobiletype_title">Alten Stil der Netzsignalanzeige benutzen</string>
+    <string name="use_old_mobiletype_summary">Aktivieren, um zur früheren Symbol-Darstellung mit integrierter Verbindungstyp-Anzeige zu wechseln</string>
+
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Zusatzinfo zum Ladevorgang</string>
     <string name="lockscreen_battery_info_summary">Die vom System ermittelte Ladespannung, Stromstärke, Wattzahl und Akkutemperatur während des Ladevorgangs auf dem Sperrbildschirm anzeigen</string>
 
-    <!-- Tiles on secure keyguard -->
-    <string name="use_tiles_on_secure_keyguard_title">Entsperrung erforderlich, um sensible QS-Kacheln zu verwenden</string>
-    <string name="use_tiles_on_secure_keyguard_summary">Aufforderung zum Entsperren des Sperrbildschirms bei Verwendung empfindlicher QS-Kacheln</string>
+    <!-- QSTile requires unlocking before being accessible -->
+    <string name="qstile_requires_unlocking_title">Entsperrung erforderlich, um sensible QS-Kacheln zu verwenden</string>
+    <string name="qstile_requires_unlocking_summary">Aufforderung zum Entsperren des Sperrbildschirms bei Verwendung empfindlicher QS-Kacheln</string>
 
     <!-- QS footer text -->
     <string name="qs_footer_text_show_title">QS-Fußzeilentext anzeigen</string>
@@ -567,4 +571,9 @@
     <!-- Custom Data icons -->
     <string name="theme_customization_data_title">Mobilfunkdatensymbol</string>
     <string name="theme_customization_data_summary">Stil für Mobilfunkdatensymbol festlegen</string>
+
+    <!-- Unlimited g00gle ph0t0s st0rage -->
+    <string name="use_photos_spoof_title">Unbegrenzter Google Fotos Speicherplatz</string>
+    <string name="use_photos_spoof_summary">Dein Gerät wird als Pixel XL ausgewiesen, um kostenlos Videos und Fotos in verlustfreier Qualität bei Google Fotos zu speichern</string>
+    <string name="photos_spoof_toast">Fotos-App neustarten, damit es wirksam wird</string>
 </resources>

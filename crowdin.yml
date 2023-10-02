@@ -8,13 +8,13 @@ languages_mapping: &anchor
         af: af
         am: am
         ar: ar
-        as: as-rIN
-        ast: ast-rES
-        az: az-rAZ
-        be: be-rBY
+        as: as
+        ast: ast
+        az: az
+        be: be
         bg: bg
-        bn: bn-rBD
-        bs: bs-rBA
+        bn: bn
+        bs: bs
         ca: ca
         cs: cs
         cy: cy
@@ -29,41 +29,41 @@ languages_mapping: &anchor
         es-ES: es
         es-MX: es-rMX
         es-US: es-rUS
-        et: et-rEE
-        eu: eu-rES
+        et: et
+        eu: eu
         fa: fa
         fi: fi
         fr: fr
-        fr-CA: fr-rCA
-        fy-NL: fy-rNL
-        gl: gl-rES
-        gu-IN: gu-rIN
+        fr-CA: fr
+        fy-NL: fy
+        gl: gl
+        gu-IN: gu
         he: iw
         hi: hi
         hr: hr
         hu: hu
-        hy-AM: hy-rAM
+        hy-AM: hy
         id: in
-        is: is-rIS
+        is: is
         it: it
         ja: ja
-        ka: ka-rGE
-        kk: kk-rKZ
-        km: km-rKH
-        kn: kn-rIN
+        ka: ka
+        kk: kk
+        km: km
+        kn: kn
         ko: ko
         ku: ku
-        ky: ky-rKG
+        ky: ky
         lb: lb
-        lo: lo-rLA
+        lo: lo
         lt: lt
         lv: lv
-        mk: mk-rMK
-        ml-IN: ml-rIN
-        mn: mn-rMN
-        mr: mr-rIN
-        ms: ms-rMY
-        my: my-rMM
+        mk: mk
+        ml-IN: ml
+        mn: mn
+        mr: mr
+        ms: ms
+        my: my
         nb: nb
         ne-NP: ne-rNP
         nl: nl
@@ -82,15 +82,15 @@ languages_mapping: &anchor
         sr: sr
         sv-SE: sv
         sw: sw
-        ta: ta-rIN
-        te: te-rIN
+        ta: ta
+        te: te
         th: th
         tl: tl
         tr: tr
         ug: ug
         uk: uk
-        ur-PK: ur-rPK
-        uz: uz-rUZ
+        ur-PK: ur
+        uz: uz
         vi: vi
         zh-CN: zh-rCN
         zh-HK: zh-rHK

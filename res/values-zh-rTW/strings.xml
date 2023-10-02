@@ -105,12 +105,11 @@
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">顯示數據禁用圖標</string>
     <string name="data_disabled_icon_summary">禁用數據時在信號欄旁邊顯示叉號</string>
+    <!-- Old mobile type icons -->
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">鎖屏充電信息</string>
     <string name="lockscreen_battery_info_summary">充電時在鎖屏上顯示充電電流、電壓、瓦數和電池溫度</string>
-    <!-- Tiles on secure keyguard -->
-    <string name="use_tiles_on_secure_keyguard_title">需要解鎖才能使用敏感圖塊</string>
-    <string name="use_tiles_on_secure_keyguard_summary">使用敏感圖塊時要求解鎖鎖屏</string>
+    <!-- QSTile requires unlocking before being accessible -->
     <!-- QS footer text -->
     <string name="qs_footer_text_show_title">顯示 QS 頁腳文本</string>
     <string name="qs_footer_text_string_title">自定義頁腳文本</string>
@@ -319,4 +318,5 @@
     <!-- QS battery -->
     <!-- Brightness slider haptic feedback -->
     <!-- Custom Data icons -->
+    <!-- Unlimited g00gle ph0t0s st0rage -->
 </resources>

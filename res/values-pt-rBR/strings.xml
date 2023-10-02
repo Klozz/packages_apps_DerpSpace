@@ -116,12 +116,11 @@
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Mostrar um icone de dados moveis desativados</string>
     <string name="data_disabled_icon_summary">Mostrar um X ao lado da barra de sinal quando os dados móveis estiverem desativados</string>
+    <!-- Old mobile type icons -->
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Informações de carregamento na tela de bloqueio</string>
     <string name="lockscreen_battery_info_summary">Mostar informações de carregamento na teal de bloqueio (consumo,volts e temperatura)</string>
-    <!-- Tiles on secure keyguard -->
-    <string name="use_tiles_on_secure_keyguard_title">Exigir o desbloqueio para usar as teles sensivéis</string>
-    <string name="use_tiles_on_secure_keyguard_summary">Exigir o desbloqueio para acessar as configurações</string>
+    <!-- QSTile requires unlocking before being accessible -->
     <!-- QS footer text -->
     <string name="qs_footer_text_show_title">Mostar texto de rodapé nas QS</string>
     <string name="qs_footer_text_string_title">Personalizar o texto de rodapé</string>
@@ -505,4 +504,5 @@
     <!-- Custom Data icons -->
     <string name="theme_customization_data_title">Estilo do ícone dos dados móveis</string>
     <string name="theme_customization_data_summary">Definir ícone de dados móveis personalizado</string>
+    <!-- Unlimited g00gle ph0t0s st0rage -->
 </resources>

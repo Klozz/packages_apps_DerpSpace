@@ -193,12 +193,109 @@
     <string name="status_bar_clock_show_seconds_title">Pokaż sekundy zegara</string>
     <string name="status_bar_clock_show_seconds_desc">Pokazuj godziny, minuty i sekundy</string>
     <!-- Statusbar lyric -->
+    <string name="status_bar_lyric_title">Tekst piosenki na pasku stanu</string>
+    <string name="status_bar_lyric_summary">Pokaż tekst piosenki na pasku stanu (wymaga wsparcia aplikacji)</string>
+    <string name="status_bar_show_lyric_title">Włącz tekst piosenek na pasku stanu</string>
+    <string name="status_bar_lyric_options_title">Ustawienia</string>
+    <string name="disguise_props_for_music_app_title">Podszywaj się pod inny model urządzenia dla aplikacji muzycznych</string>
+    <string name="disguise_props_for_music_app_summary">Podszywaj się pod inne urządzenie w niektórych aplikacjach muzycznych do obsługi tekstu na pasku stanu. Po zmianie tego przełącznika musisz ponownie uruchomić aplikacje, aby zmiany zaczęły obowiązywać.</string>
     <!-- Statusbar logo -->
+    <string name="status_bar_logo_title">Logo</string>
+    <string name="status_bar_logo_summary">Wyświetl niestandardowe logo po lewej lub prawej stronie paska stanu</string>
+    <string name="status_bar_logo_position_title">Pozycja logo</string>
+    <string name="status_bar_logo_position_right">Po prawej</string>
+    <string name="status_bar_logo_position_left">Po lewej</string>
+    <string name="status_bar_logo_style_title">Styl logo</string>
+    <string name="status_bar_logo_style_derp">Domyślne logo DerpFest</string>
+    <string name="status_bar_logo_style_derp_2">Trójkąt DerpFest</string>
+    <string name="status_bar_logo_style_android">Android</string>
+    <string name="status_bar_logo_style_adidas">Adidas</string>
+    <string name="status_bar_logo_style_alien">Alien</string>
+    <string name="status_bar_logo_style_apple">Apple</string>
+    <string name="status_bar_logo_style_avengers">Avengers</string>
+    <string name="status_bar_logo_style_batman">Batman</string>
+    <string name="status_bar_logo_style_batman_tdk">Batman The Dark Knight</string>
+    <string name="status_bar_logo_style_beats">Beats</string>
+    <string name="status_bar_logo_style_biohazard">Biohazard</string>
+    <string name="status_bar_logo_style_blackberry">BlackBerry</string>
+    <string name="status_bar_logo_style_cannabis">Cannabis</string>
+    <string name="status_bar_logo_style_emoticon_cool">Emotikona – cool</string>
+    <string name="status_bar_logo_style_emoticon_devil">Emotikona – diabeł</string>
+    <string name="status_bar_logo_style_fire">Ogień</string>
+    <string name="status_bar_logo_style_heart">Serce</string>
+    <string name="status_bar_logo_style_nike">Nike</string>
+    <string name="status_bar_logo_style_pacman">Pac-man</string>
+    <string name="status_bar_logo_style_puma">Puma</string>
+    <string name="status_bar_logo_style_rog">ROG</string>
+    <string name="status_bar_logo_style_spiderman">Spider-Man</string>
+    <string name="status_bar_logo_style_superman">Superman</string>
+    <string name="status_bar_logo_style_windows">Windows</string>
+    <string name="status_bar_logo_style_xbox">Xbox</string>
+    <string name="status_bar_logo_style_ghost">Duch</string>
+    <string name="status_bar_logo_style_ninja">Ninja</string>
+    <string name="status_bar_logo_style_robot">Robot</string>
+    <string name="status_bar_logo_style_ironman">Iron Man</string>
+    <string name="status_bar_logo_style_captain_america">Kapitan Ameryka</string>
+    <string name="status_bar_logo_style_flash">Flash</string>
+    <string name="status_bar_logo_style_tux">Tux</string>
+    <string name="status_bar_logo_style_ubuntu">Ubuntu</string>
+    <string name="status_bar_logo_style_mint">Linux Mint</string>
     <!-- Pulse music visualizer -->
+    <string name="pulse_help_policy_notice_title">O funkcji Pulse</string>
+    <string name="pulse_help_policy_notice_summary">Pulse jest znakomitym wizualizatorem graficznym audio, gdy muzyka jest odtwarzana na urządzeniu</string>
+    <string name="pulse_settings">Pulse</string>
+    <string name="pulse_settings_summary">Wizualizator audio dla paska nawigacyjnego, ekranu blokady i ekranu Ambient</string>
+    <string name="show_navbar_pulse_title">Pulse na pasku nawigacji</string>
+    <string name="show_navbar_pulse_summary">Wizualizacja audio na pasku nawigacyjnym</string>
+    <string name="show_lockscreen_pulse_title">Pulsowanie ekranu blokady</string>
+    <string name="show_lockscreen_pulse_summary">Wizualizacja audio na ekranie blokady</string>
+    <string name="show_ambient_pulse_title">Pulse na ekranie ambient</string>
+    <string name="show_ambient_pulse_summary">Wizualizacja audio na ekranie Ambient</string>
+    <string name="pulse_render_mode_title">Tryb renderowania</string>
+    <string name="pulse_render_mode_fading_bars">Zanikanie bloków</string>
+    <string name="pulse_render_mode_solid_lines">Linie Solid</string>
+    <string name="pulse_legacy_mode_advanced_category">Ustawienia zanikających bloków</string>
+    <string name="pulse_custom_fudge_factor">Poziom czułości</string>
+    <string name="pulse_lavalamp_speed_title">Prędkość lampy lawowej</string>
+    <string name="pulse_solid_units_count">Liczba linii Solid</string>
+    <string name="pulse_solid_units_opacity">Przezroczystość linii Solid</string>
+    <string name="pulse_solid_dimen_category">Ustawienia trybu linii Solid</string>
+    <string name="pulse_color_mode_title">Kolor</string>
+    <string name="pulse_color_accent">Akcent</string>
+    <string name="pulse_color_custom">Niestandardowe</string>
+    <string name="pulse_color_lava_lamp">Lampa lawowa</string>
+    <string name="pulse_color_auto">Album</string>
+    <string name="pulse_color_user_title">Wybierz kolor</string>
+    <string name="pulse_smoothing_enabled_title">Włącz wygładzanie</string>
+    <string name="pulse_smoothing_enabled_summary">Każdy pasek jest animowany płynniej</string>
+    <string name="pulse_custom_dimen">Szerokość</string>
+    <string name="pulse_custom_div">Odstęp pasków</string>
+    <string name="pulse_filled_block_size">Rozmiar bloku</string>
+    <string name="pulse_empty_block_size">Odstępy między blokami</string>
+    <string name="pulse_solid_units_rounded_title">Liczba linii Solid</string>
+    <string name="pulse_solid_units_rounded_summary">Zaokrąglij stałe Solid</string>
     <!-- Udfps animations -->
+    <string name="udfps_recog_animation">Użyj animacji UDFPS</string>
+    <string name="udfps_recog_animation_summary">Pokazuje animację podczas skanowania linii papilarnych</string>
+    <string name="udfps_recog_animation_effect_title">Niestandardowa animacja UDFPS</string>
+    <string name="udfps_recog_animation_effect_summary">Wybierz efekt animacji</string>
     <!-- Udfps icon picker -->
+    <string name="udfps_icon_picker_title">Wybór ikon UDFPS</string>
+    <string name="udfps_icon_picker_summary">Wybierz swoją ulubioną ikonę odcisku palca</string>
     <!-- Lockscreen charge temperature unit -->
+    <string name="lockscreen_charge_temp_unit_title">Jednostka temperatury</string>
+    <string name="lockscreen_charge_temp_unit_farhenheit">Fahrenheit</string>
+    <string name="lockscreen_charge_temp_unit_celsius">Stopnie Celsjusza</string>
     <!-- Material dismiss all button for notifications -->
+    <string name="notification_material_dismiss_title">Przycisk usuwania wszystkich powiadomień</string>
+    <string name="notification_material_dismiss_summary">Zamień \"Wyczyść wszystkie powiadomienia\" na pływający przycisk</string>
+    <string name="notification_material_dismiss_style_title">Styl przycisków</string>
+    <string name="notification_material_dismiss_style_default">Domyślne</string>
+    <string name="notification_material_dismiss_style_trash">Śmietnik</string>
+    <string name="notification_material_dismiss_style_broom">Miotła</string>
+    <string name="notification_material_dismiss_style_pac-man">Pac-man</string>
+    <string name="notification_material_dismiss_style_magnet">Magnet włączony</string>
+    <string name="notification_material_dismiss_style_derpfest">Logo DerpFest</string>
     <!-- Bluetooth status -->
     <!-- Clock auto hide -->
     <!-- Ambient battery bar settings -->

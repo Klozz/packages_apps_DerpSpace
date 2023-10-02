@@ -116,12 +116,11 @@
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Pokaż ikonę wyłączonej transmisji danych</string>
     <string name="data_disabled_icon_summary">Pokaż znak X obok ikony sygnału, gdy dane mobilne są wyłączone</string>
+    <!-- Old mobile type icons -->
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Szczegóły ładowania na ekranie blokady</string>
     <string name="lockscreen_battery_info_summary">Wyświetl na ekranie blokady podczas ładowania aktualne informacje o napięciu, mocy oraz temperaturze ładowania</string>
-    <!-- Tiles on secure keyguard -->
-    <string name="use_tiles_on_secure_keyguard_title">Wymagaj odblokowania, aby używać wrażliwych kafelków</string>
-    <string name="use_tiles_on_secure_keyguard_summary">Poproś o odblokowanie ekranu blokady podczas używania wrażliwych kafelków</string>
+    <!-- QSTile requires unlocking before being accessible -->
     <!-- QS footer text -->
     <string name="qs_footer_text_show_title">Pokaż tekst stopki w szybkich ustawieniach</string>
     <string name="qs_footer_text_string_title">Dostosuj tekst stopki</string>
@@ -325,4 +324,5 @@
     <!-- QS battery -->
     <!-- Brightness slider haptic feedback -->
     <!-- Custom Data icons -->
+    <!-- Unlimited g00gle ph0t0s st0rage -->
 </resources>

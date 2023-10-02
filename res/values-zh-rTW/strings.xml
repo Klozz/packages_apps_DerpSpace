@@ -18,14 +18,8 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- General app strings -->
-    <string name="add">添加</string>
-    <string name="advanced">先進的</string>
-    <string name="cancel">取消</string>
     <string name="default_text">默認</string>
-    <string name="dlg_ok">好的</string>
     <string name="attention">注意力</string>
-    <string name="loading">正在加載\u2026</string>
-    <string name="reset">重啟</string>
     <string name="reset_colors">重置顏色</string>
     <string name="reset_android">安卓</string>
     <string name="text_title">文本</string>
@@ -43,6 +37,7 @@
     <!-- Frags -->
     <!-- General Tweaks -->
     <string name="general_tweaks_title">常規設置</string>
+    <!-- Lockscreen icons -->
     <!-- Lockscreen UI -->
     <string name="lockscreen_ui_title">鎖屏界面</string>
     <!-- Lockscreen general category -->
@@ -59,12 +54,13 @@
     <string name="notifications_title">通知</string>
     <!-- Quick Settings -->
     <string name="quick_settings_title">快速設置</string>
-    <!-- Status bar clock and date options -->
+    <!-- Status bar clock options -->
     <string name="status_bar_clock_title">時鐘 &amp; 日期設置</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_category">亮度滑塊</string>
     <!-- Quick Settings footer category -->
     <string name="footer_category">頁腳</string>
+    <!-- Quick Settings header category -->
     <!-- Statusbar Iten -->
     <string name="statusbar_items_category">狀態欄項目</string>
     <!-- Customisation -->
@@ -82,11 +78,8 @@
     <string name="derpspace_dialog_toast">閱讀全文！</string>
     <string name="artwork_media_fade_level_summary">淡化媒體藝術品圖像</string>
     <!-- QuickSettings haptic feedback -->
-    <string name="qs_tile_vibration_title">振動</string>
     <string name="quick_settings_vibrate_title">觸摸振動</string>
     <string name="quick_settings_vibrate_summary">觸摸 QS 方塊時振動</string>
-    <string name="quick_settings_vibrate_duration_title">振動持續時間</string>
-    <string name="quick_settings_vibrate_duration_summary">振動多少毫秒</string>
     <!-- Tiles animation style  -->
     <string name="qs_tile_animation_title">動畫</string>
     <string name="qs_tile_animation_style_title">動畫風格</string>
@@ -106,27 +99,17 @@
     <string name="qs_tile_animation_interpolator_overshootInterpolator">過衝</string>
     <string name="qs_tile_animation_interpolator_anticipateInterpolator">預料</string>
     <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">預期超調</string>
-    <string name="qs_set_animation_style">%1$s</string>
-    <string name="qs_set_animation_duration">%1$s</string>
-    <string name="qs_set_animation_interpolator">%1$s</string>
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">4G圖標</string>
     <string name="show_fourg_icon_summary">在信號圖標中顯示 4G 圖標而不是 LTE</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">顯示數據禁用圖標</string>
     <string name="data_disabled_icon_summary">禁用數據時在信號欄旁邊顯示叉號</string>
-    <!-- QS footer warnings -->
-    <string name="qs_footer_warnings_title">QS 頁腳警告</string>
-    <string name="qs_footer_warnings_summary">當網絡被外部應用程序或 vpn 監控時，在 QS 面板底部顯示警告</string>
     <!-- Old mobile type icons -->
-    <string name="use_old_mobiletype_title">小移動類型圖標</string>
-    <string name="use_old_mobiletype_summary">在信號指示器頂部顯示移動類型圖標</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">鎖屏充電信息</string>
     <string name="lockscreen_battery_info_summary">充電時在鎖屏上顯示充電電流、電壓、瓦數和電池溫度</string>
-    <!-- Tiles on secure keyguard -->
-    <string name="use_tiles_on_secure_keyguard_title">需要解鎖才能使用敏感圖塊</string>
-    <string name="use_tiles_on_secure_keyguard_summary">使用敏感圖塊時要求解鎖鎖屏</string>
+    <!-- QSTile requires unlocking before being accessible -->
     <!-- QS footer text -->
     <string name="qs_footer_text_show_title">顯示 QS 頁腳文本</string>
     <string name="qs_footer_text_string_title">自定義頁腳文本</string>
@@ -135,11 +118,9 @@
     <string name="notifications_general_category_title">一般的</string>
     <!-- Notification count -->
     <string name="status_bar_notif_count_title">通知計數</string>
-    <string name="status_bar_notif_count_summary">顯示待處理通知的數量</string>
     <!-- Units -->
     <string name="unit_seconds">秒</string>
     <string name="unit_milliseconds">小姐</string>
-    <string name="unit_pixels">dp</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the settings category for theme overlays. -->
     <string name="theme_customization_category">主題</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
@@ -165,8 +146,8 @@
     <!-- UI styles -->
     <string name="theme_customization_ui_style_title">界面風格</string>
     <string name="theme_customization_ui_style_summary">為您的界面設置自定義樣式</string>
+    <!-- Fonts -->
     <!-- Applications fragment -->
-    <string name="search">搜索</string>
     <string name="search_apps">搜索應用</string>
     <!-- reTicker -->
     <string name="reticker_title">重新報價</string>
@@ -189,74 +170,25 @@
     <!-- Lock screen cover art -->
     <string name="lockscreen_media_blur_title">媒體藝術模糊級別</string>
     <!-- Clock position -->
-    <string name="status_bar_clock_position_center">中心</string>
-    <string name="status_bar_clock_position_left">剩下</string>
-    <string name="status_bar_clock_position_right">正確的</string>
-    <string name="status_bar_clock_position_title">時鐘位置</string>
     <!-- Clock AM/PM -->
-    <string name="status_bar_am_pm_hidden">隱</string>
-    <string name="status_bar_am_pm_normal">普通的</string>
-    <string name="status_bar_am_pm_small">小的</string>
     <string name="status_bar_am_pm_title">時鐘 AM/PM 樣式</string>
     <string name="status_bar_am_pm_unavailable">啟用 24 小時制</string>
     <!-- Clock show seconds -->
     <string name="status_bar_clock_show_seconds_title">時鐘顯示秒</string>
     <string name="status_bar_clock_show_seconds_desc">顯示小時、分鐘和秒</string>
-    <!-- Battery style and percentage -->
-    <string name="status_bar_battery_style_circle">圓圈</string>
-    <string name="status_bar_battery_style_icon_portrait">圖標肖像</string>
-    <string name="status_bar_battery_style_text">文本</string>
-    <string name="status_bar_battery_style_title">電池狀態樣式</string>
-    <string name="status_bar_battery_percentage_hidden">隱</string>
-    <string name="status_bar_battery_percentage_text_inside">圖標裡面</string>
-    <string name="status_bar_battery_percentage_text_next">在圖標旁邊</string>
-    <string name="status_bar_battery_percentage_title">電池百分比</string>
-    <!-- Brightness slider -->
-    <string name="qqs_show_brightness_title">在 Quick QS 面板中顯示亮度滑塊</string>
-    <string name="brightness_slider_position_title">亮度滑塊位置</string>
-    <string name="top">最佳</string>
-    <string name="bottom">底部</string>
-    <string name="show_auto_brightness_button_title">顯示自動亮度按鈕</string>
-    <!-- Pulse -->
-    <string name="ambient_light_category">邊緣照明</string>
-    <string name="keywords_pulse_ambient_light_display">通知，通知，邊緣，光，顏色，顏色</string>
-    <string name="pulse_ambient_light_text">當您收到通知時，邊緣照明會讓您的屏幕發光。這使您在手機處於打瞌睡模式時更容易判斷何時有脈搏。</string>
-    <string name="pulse_ambient_light_enable">使用邊緣照明</string>
-    <string name="pulse_ambient_light_title">邊緣照明</string>
-    <string name="pulse_ambient_light_summary">在通知脈衝時點亮屏幕的側邊</string>
-    <string name="ambient_notification_light_accent_title">系統強調色</string>
-    <string name="ambient_notification_light_color_automatic_title">通知顏色</string>
-    <string name="pulse_ambient_light_color">脈衝時，使用</string>
-    <!-- QS tiles layout -->
-    <string name="qs_tile_layout_title">QS 瓷磚佈局</string>
-    <string name="qs_tile_layout_summary">在 QS 面板中自定義磁貼佈局</string>
-    <string name="qs_tiles_layout_category">瓷磚佈局</string>
-    <string name="qs_rows_portrait_title">行（縱向）</string>
-    <string name="qqs_rows_portrait_title">Rows（快速QS畫像）</string>
-    <string name="qs_columns_portrait_title">列（縱向）</string>
-    <string name="qs_apply_change_button_title">應用更改</string>
-    <string name="qs_apply_change_failed">無法應用更改</string>
-    <string name="qs_tile_hide_label_title">隱藏標籤</string>
-    <string name="qs_tile_hide_label_summary">僅顯示 QS 磁貼的圖標</string>
-    <string name="qs_tile_vertical_layout_title">垂直佈局</string>
-    <string name="qs_tile_vertical_layout_summary">為 QS 磁貼啟用垂直佈局</string>
     <!-- Statusbar lyric -->
     <string name="status_bar_lyric_title">狀態欄歌詞</string>
     <string name="status_bar_lyric_summary">在狀態欄中顯示歌詞（需要應用程序支持）</string>
     <string name="status_bar_show_lyric_title">啟用狀態欄歌詞</string>
     <!-- Statusbar logo -->
-    <string name="status_bar_logo_category_title">商標</string>
     <string name="status_bar_logo_title">商標</string>
     <string name="status_bar_logo_summary">啟用在狀態欄中顯示徽標</string>
     <string name="status_bar_logo_position_title">位置</string>
-    <string name="status_bar_logo_position_summary">選擇在哪一側顯示徽標，左側還是右側</string>
     <string name="status_bar_logo_position_right">正確的</string>
     <string name="status_bar_logo_position_left">剩下</string>
     <string name="status_bar_logo_style_title">風格</string>
     <string name="status_bar_logo_style_derp">DerpFest</string>
-    <string name="status_bar_logo_style_derp_alt">DerpFest三角</string>
     <string name="status_bar_logo_style_adidas">阿迪達斯</string>
-    <string name="status_bar_logo_style_airjordan">Air Jordan</string>
     <string name="status_bar_logo_style_apple">蘋果</string>
     <string name="status_bar_logo_style_avengers">復仇者聯盟</string>
     <string name="status_bar_logo_style_batman">蝙蝠俠</string>
@@ -267,7 +199,6 @@
     <string name="status_bar_logo_style_cannabis">大麻</string>
     <string name="status_bar_logo_style_fire">火</string>
     <string name="status_bar_logo_style_nike">耐克</string>
-    <string name="status_bar_logo_style_pac_man">吃豆人</string>
     <string name="status_bar_logo_style_puma">彪馬</string>
     <string name="status_bar_logo_style_rog">華碩</string>
     <string name="status_bar_logo_style_superman">超人</string>
@@ -330,13 +261,6 @@
     <!-- Clock auto hide -->
     <string name="status_bar_clock_auto_hide_title">自動隱藏</string>
     <string name="status_bar_clock_auto_hide_summary">如果啟動器可見則隱藏時鐘</string>
-    <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interraction -->
-    <string name="wallpaper_zoom_effect_title">壁紙縮放效果</string>
-    <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
-    <string name="wallpaper_zoom_effect_summary">縮放壁紙以顯示縮小深度動畫。壁紙可能會出現質量下降</string>
-    <!-- Squiggle animation -->
-    <string name="show_squiggle_animation_title">顯示曲線動畫</string>
-    <string name="show_squiggle_animation_summary">顯示媒體面板波浪動畫\n更改後需要切換音樂、暫停音樂或移動進度條才能應用</string>
     <!-- Ambient battery bar settings -->
     <string name="ambient_ui">環境/始終顯示</string>
     <string name="ambient_battery_settings_title">電池條</string>
@@ -363,13 +287,36 @@
     <!-- Statusbar Clock background chip -->
     <string name="statusbar_clock_chip_title">背景芯片</string>
     <string name="statusbar_clock_chip_summary">在時鐘後面顯示重音芯片</string>
-    <!-- Hide statusbar on lockscreen -->
-    <string name="lockscreen_hide_status_bar_title">隱藏狀態欄</string>
-    <string name="lockscreen_hide_status_bar_summary">啟用後，狀態欄將隱藏在鎖屏上</string>
+    <!-- Separate signal icons -->
     <!-- Android P animation style -->
     <string name="pie_animation_style_title">Android P動畫風格</string>
     <string name="pie_animation_style_summary">啟用 Android P“默認”動畫</string>
-    <!-- Parallel space -->
-    <string name="laboratory_parallel_space_title">平行空間</string>
-    <string name="laboratory_parallel_space_summary">允許並行運行同一應用程序的多個實例</string>
+    <!-- Monet settings -->
+    <!-- Statusbar colored icons -->
+    <!-- Wi-Fi Standard icon -->
+    <!-- QS Transparency -->
+    <!-- Lockscreen bottom shortcuts -->
+    <!-- Disable QS -->
+    <!-- QS brightness slider -->
+    <!-- QS auto brightness icon -->
+    <!-- Fingerprint authentication vibration -->
+    <!-- QS Header -->
+    <!-- Brightness slider styles -->
+    <!-- Navbar styles -->
+    <!-- QS tiles layout direction: vertical or horizontal -->
+    <string name="qs_tile_layout_title">QS 瓷磚佈局</string>
+    <string name="qs_tile_layout_summary">在 QS 面板中自定義磁貼佈局</string>
+    <!-- QS tiles title visibility -->
+    <!-- QS tiles layout  -->
+    <string name="qs_columns_portrait_title">列（縱向）</string>
+    <!-- Quick settings styles -->
+    <!-- Status bar - Battery -->
+    <string name="status_bar_battery_style_title">電池狀態樣式</string>
+    <string name="status_bar_battery_style_icon_portrait">圖標肖像</string>
+    <string name="status_bar_battery_style_circle">圓圈</string>
+    <string name="status_bar_battery_style_text">文本</string>
+    <!-- QS battery -->
+    <!-- Brightness slider haptic feedback -->
+    <!-- Custom Data icons -->
+    <!-- Unlimited g00gle ph0t0s st0rage -->
 </resources>

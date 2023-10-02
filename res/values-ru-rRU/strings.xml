@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Copyright (C) 2014-2016 The Dirty Unicorns Project
+      Copyright (C) 2016 AospExtended ROM Project
+      Copyright (C) 2022 DerpFest
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- General app strings -->
+    <string name="add">Добавить</string>
+    <string name="advanced">Расширенные</string>
+    <string name="cancel">Отмена</string>
+    <string name="default_text">По умолчанию</string>
+    <string name="dlg_ok">Ок</string>
+    <string name="attention">Внимание</string>
+    <string name="loading">Загрузка</string>
+    <string name="reset">Сброс</string>
+    <string name="reset_colors">Сбросить цвета</string>
+    <string name="reset_android">Android</string>
+    <string name="text_title">Текст</string>
+    <string name="icon_title">Значок</string>
+    <string name="color_title">Цвет</string>
+    <string name="colors_title">Цвета</string>
+    <!-- DerpSpace categories -->
+    <string name="icons_category">Значки</string>
+    <string name="status_bar_category">Строка состояния</string>
+    <string name="notifications_panel_category">Панель быстрых настроек</string>
+    <string name="system_category">Система</string>
+    <string name="lockscreen_category">Экран блокировки</string>
+    <string name="udfps_category">Отпечаток пальца под дисплеем</string>
+    <string name="listview">Просмотр списка</string>
+    <!-- Frags -->
+    <!-- General Tweaks -->
+    <string name="general_tweaks_title">Основные настройки</string>
+    <!-- Lockscreen icons -->
+    <string name="lockscreen_shortcuts">Ярлыки на экране блокировки</string>
+    <!-- Lockscreen UI -->
+    <string name="lockscreen_ui_title">Интерфейс экрана блокировки</string>
+    <!-- Lockscreen general category -->
+    <string name="general_category">Основное</string>
+    <!-- Lockscreen charging category -->
+    <string name="charging_category">Зарядка</string>
+    <!-- Quicksettings media category -->
+    <string name="media_category">Медиапроигрыватель</string>
+    <!-- Network Traffic -->
+    <string name="traffic_title">Индикаторы трафика</string>
+    <!-- Misc DerpSpace -->
+    <string name="misc_derpspace_title">Прочее</string>
+    <!-- Notifications -->
+    <string name="notifications_title">Уведомления</string>
+    <!-- Quick Settings -->
+    <string name="quick_settings_title">Быстрые настройки</string>
+    <!-- Status bar clock options -->
+    <string name="status_bar_clock_title">Настройки часов</string>
+    <!-- Quick Settings brightness slider -->
+    <string name="qs_brightness_slider_category">Ползунок яркости</string>
+    <!-- Quick Settings footer category -->
+    <string name="footer_category">Нижняя панель</string>
+    <!-- Quick Settings header category -->
+    <string name="header_category">Заголовок</string>
+    <!-- Statusbar Iten -->
+    <string name="statusbar_items_category">Элементы строки состояния</string>
+    <!-- Customisation -->
+    <string name="customisation_title">Кастомизация</string>
+    <!-- Battery -->
+    <string name="battery_title">Батарея</string>
+    <!-- Battery Settings -->
+    <string name="battery_settings_title">Настройки батареи</string>
+    <!-- Battery Styles -->
+    <string name="battery_style_category_title">Стиль батареи</string>
+    <string name="battery_percent_title">Процент батареи</string>
+    <!-- App info dialog -->
+    <string name="derpspace_dialog_title">Помогите нам помочь вам!</string>
+    <string name="derpspace_dialog_message">Если вы обнаружили ошибку в работе какой-либо из этих настроек, сообщите об этом в нашей группе Telegram. При отправке сообщения об ошибке вы ОБЯЗАНЫ указать следующее:\n\n1. Логкат или last_kmsg\n2. Ядро и используемые моды\n3. Полезная информация\n\nЕсли вы не сообщили об ошибке должным образом, НЕ ждите, что она будет исправлена.</string>
+    <string name="derpspace_dialog_toast">ПРОЧИТАЙТЕ ЭТО!</string>
+    <string name="artwork_media_fade_level_summary">Затемнение обложки медиа</string>
+    <!-- QuickSettings haptic feedback -->
+    <string name="quick_settings_vibrate_title">Вибрация при прикосновении</string>
+    <string name="quick_settings_vibrate_summary">Вибрация при касании плиток быстрых настроек</string>
+    <!-- Tiles animation style  -->
+    <string name="qs_tile_animation_title">Анимации</string>
+    <string name="qs_tile_animation_style_title">Стиль анимации</string>
+    <string name="qs_tile_animation_duration_title">Продолжительность анимации</string>
+    <string name="qs_tile_animation_interpolator_title">Интерполяция анимации плиток</string>
+    <string name="qs_tile_animation_style_off">Без анимации</string>
+    <string name="qs_tile_animation_style_flip">Перевернуть</string>
+    <string name="qs_tile_animation_style_rotate">Вращение</string>
+    <string name="qs_tile_animation_duration_low">Низкое</string>
+    <string name="qs_tile_animation_duration_default">По умолчанию</string>
+    <!-- 4G icon -->
+    <!-- Data disabled icon -->
+    <!-- Old mobile type icons -->
+    <!-- Lockscreen battery info indicator  -->
+    <!-- QSTile requires unlocking before being accessible -->
+    <!-- QS footer text -->
+    <!-- Notifications general category -->
+    <!-- Notification count -->
+    <!-- Units -->
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the settings category for theme overlays. -->
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the system wide icon pack. -->
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Label for the option that turns off customizations for a given category.-->
+    <!-- Custom Wi-Fi bar icons -->
+    <!-- Custom Signal bar icons -->
+    <!-- Black theme -->
+    <!-- UI styles -->
+    <!-- Fonts -->
+    <!-- Applications fragment -->
+    <string name="search">Поиск</string>
+    <!-- reTicker -->
+    <string name="reticker_colored_summary">Замена цвета фона reTicker на основной цвет приложения уведомлений</string>
+    <string name="reticker_landscape_only_title">Только ландшафт</string>
+    <string name="reticker_landscape_only_summary">Включать reTicker только в том случае, если устройство находится в ландшафтном режиме</string>
+    <!-- Network traffic -->
+    <string name="network_traffic_title">Индикатор сетевого трафика</string>
+    <string name="network_traffic_summary">Включение или отключение индикатора скорости сети в строке состояния</string>
+    <string name="network_traffic_state_title">Включить \"Индикатор сетевого трафика\"</string>
+    <string name="network_options_title">Опции</string>
+    <string name="network_traffic_autohide_title">Скрыть индикатор сетевого трафика, когда неактивен</string>
+    <string name="network_traffic_autohide_summary">Скрыть, когда сетевой трафик ниже 1 КБ/с</string>
+    <!-- Media art -->
+    <string name="lockscreen_media_art_options_title">Отображение обложки медиа</string>
+    <string name="media_art_title">Отображение обложки медиа</string>
+    <!-- Lock screen cover art -->
+    <!-- Clock position -->
+    <!-- Clock AM/PM -->
+    <!-- Clock show seconds -->
+    <!-- Statusbar lyric -->
+    <!-- Statusbar logo -->
+    <!-- Pulse music visualizer -->
+    <!-- Udfps animations -->
+    <!-- Udfps icon picker -->
+    <!-- Lockscreen charge temperature unit -->
+    <!-- Material dismiss all button for notifications -->
+    <!-- Bluetooth status -->
+    <!-- Clock auto hide -->
+    <!-- Ambient battery bar settings -->
+    <!-- Pulse Gravity and mirror options -->
+    <!-- Ripple Effect on lockscreen -->
+    <!-- Charging animation -->
+    <!-- Statusbar Clock background chip -->
+    <!-- Separate signal icons -->
+    <!-- Android P animation style -->
+    <!-- Monet settings -->
+    <!-- Statusbar colored icons -->
+    <!-- Wi-Fi Standard icon -->
+    <!-- QS Transparency -->
+    <!-- Lockscreen bottom shortcuts -->
+    <!-- Disable QS -->
+    <!-- QS brightness slider -->
+    <!-- QS auto brightness icon -->
+    <!-- Fingerprint authentication vibration -->
+    <!-- QS Header -->
+    <!-- Brightness slider styles -->
+    <!-- Navbar styles -->
+    <!-- QS tiles layout direction: vertical or horizontal -->
+    <!-- QS tiles title visibility -->
+    <!-- QS tiles layout  -->
+    <!-- Quick settings styles -->
+    <!-- Status bar - Battery -->
+    <!-- QS battery -->
+    <!-- Brightness slider haptic feedback -->
+    <!-- Custom Data icons -->
+    <!-- Unlimited g00gle ph0t0s st0rage -->
+</resources>

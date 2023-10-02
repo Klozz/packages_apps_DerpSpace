@@ -116,6 +116,7 @@
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Mostrar icono de datos desactivados</string>
     <string name="data_disabled_icon_summary">Mostrar el símbolo de una cruz junto a la barra de señal cuando se deshabilitan los datos</string>
+    <!-- Old mobile type icons -->
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Información de carga en pantalla de bloqueo</string>
     <string name="lockscreen_battery_info_summary">Muestra la corriente de carga, voltaje, potencia y temperatura de la batería en la pantalla de bloqueo mientras se carga</string>

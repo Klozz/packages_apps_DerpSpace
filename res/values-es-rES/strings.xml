@@ -510,4 +510,6 @@
     <string name="theme_customization_data_summary">Establecer estilo de icono de datos personalizado</string>
     <!-- Unlimited g00gle ph0t0s st0rage -->
     <string name="use_photos_spoof_title">Almacenamiento ilimitado de fotos de Google</string>
+    <string name="use_photos_spoof_summary">Su dispositivo será identificado como un Pixel XL para obtener almacenamiento ilimitado de fotos de Google a calidad original</string>
+    <string name="photos_spoof_toast">Reinicie la aplicación Fotos para que surta efecto</string>
 </resources>

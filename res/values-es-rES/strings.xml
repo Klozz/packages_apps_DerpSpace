@@ -117,10 +117,14 @@
     <string name="data_disabled_icon_title">Mostrar icono de datos desactivados</string>
     <string name="data_disabled_icon_summary">Mostrar el símbolo de una cruz junto a la barra de señal cuando se deshabilitan los datos</string>
     <!-- Old mobile type icons -->
+    <string name="use_old_mobiletype_title">Icono pequeño de tipo de red móvil</string>
+    <string name="use_old_mobiletype_summary">Muestra el icono del tipo de señal en la parte superior del indicador de señal</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Información de carga en pantalla de bloqueo</string>
     <string name="lockscreen_battery_info_summary">Muestra la corriente de carga, voltaje, potencia y temperatura de la batería en la pantalla de bloqueo mientras se carga</string>
     <!-- QSTile requires unlocking before being accessible -->
+    <string name="qstile_requires_unlocking_title">Requiere desbloquear para usar ajustes sensibles</string>
+    <string name="qstile_requires_unlocking_summary">Solicitar desbloquear pantalla de bloqueo al usar \"Tiles\" sensibles</string>
     <!-- QS footer text -->
     <string name="qs_footer_text_show_title">Mostrar texto de pie de página QS</string>
     <string name="qs_footer_text_string_title">Personalizar el texto de pie de ajustes rápidos</string>
@@ -505,4 +509,5 @@
     <string name="theme_customization_data_title">Estilo de icono de datos</string>
     <string name="theme_customization_data_summary">Establecer estilo de icono de datos personalizado</string>
     <!-- Unlimited g00gle ph0t0s st0rage -->
+    <string name="use_photos_spoof_title">Almacenamiento ilimitado de fotos de Google</string>
 </resources>

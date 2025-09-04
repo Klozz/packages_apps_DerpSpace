@@ -117,10 +117,14 @@
     <string name="data_disabled_icon_title">Pokaż ikonę wyłączonej transmisji danych</string>
     <string name="data_disabled_icon_summary">Pokaż znak X obok ikony sygnału, gdy dane mobilne są wyłączone</string>
     <!-- Old mobile type icons -->
+    <string name="use_old_mobiletype_title">Starszy styl ikony danych mobilnych</string>
+    <string name="use_old_mobiletype_summary">Pokaż mniejszą ikonę danych mobilnych na górze wskaźnika sygnału</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Szczegóły ładowania na ekranie blokady</string>
     <string name="lockscreen_battery_info_summary">Wyświetl na ekranie blokady podczas ładowania aktualne informacje o napięciu, mocy oraz temperaturze ładowania</string>
     <!-- QSTile requires unlocking before being accessible -->
+    <string name="qstile_requires_unlocking_title">Wymagaj odblokowania, aby używać wrażliwych kafelków</string>
+    <string name="qstile_requires_unlocking_summary">Poproś o odblokowanie ekranu blokady podczas używania wrażliwych kafelków</string>
     <!-- QS footer text -->
     <string name="qs_footer_text_show_title">Pokaż tekst stopki w szybkich ustawieniach</string>
     <string name="qs_footer_text_string_title">Dostosuj tekst stopki</string>
@@ -293,15 +297,57 @@
     <string name="notification_material_dismiss_style_trash">Śmietnik</string>
     <string name="notification_material_dismiss_style_broom">Miotła</string>
     <string name="notification_material_dismiss_style_pac-man">Pac-man</string>
+    <string name="notification_material_dismiss_style_recycle">Recykling</string>
+    <string name="notification_material_dismiss_style_eraser">Gumka</string>
+    <string name="notification_material_dismiss_style_playlist">Sprawdzanie listy odtwarzania</string>
     <string name="notification_material_dismiss_style_magnet">Magnet włączony</string>
     <string name="notification_material_dismiss_style_derpfest">Logo DerpFest</string>
+    <string name="notification_material_dismiss_bgstyle_title">Przycisk tła</string>
+    <string name="notification_material_dismiss_bgstyle_default">Okrąg (domyślnie)</string>
+    <string name="notification_material_dismiss_bgstyle_rectangle">Zaokrąglony prostokąt</string>
+    <string name="notification_material_dismiss_bgstyle_square">Kwadrat</string>
+    <string name="notification_material_dismiss_bgstyle_gear">Koło zębate</string>
+    <string name="notification_material_dismiss_bgstyle_dashedline">Kwadratowy z linią przerywaną</string>
+    <string name="notification_material_dismiss_bgstyle_circle_accent">Okrąg z akcentowanym konturem</string>
+    <string name="notification_material_dismiss_bgstyle_rectangle_accent">Zaokrąglony prostokąt z akcentowanym konturem</string>
+    <string name="notification_material_dismiss_bgstyle_rectangle_gradient">Zaokrąglony prostokąt z gradientowym tłem</string>
     <!-- Bluetooth status -->
+    <string name="bluetooth_battery_title">Stan baterii Bluetooth</string>
+    <string name="bluetooth_battery_summary">Pokaż stan baterii aktualnie podłączonego urządzenia Bluetooth, jeśli dostępny</string>
     <!-- Clock auto hide -->
+    <string name="status_bar_clock_auto_hide_title">Autoukrywanie</string>
+    <string name="status_bar_clock_auto_hide_summary">Ukryj zegar na ekranie głównym</string>
     <!-- Ambient battery bar settings -->
+    <string name="ambient_ui">Ambient/Always On Display</string>
+    <string name="ambient_battery_settings_title">Pasek baterii</string>
+    <string name="ambient_battery_settings_summary">Wyświetlaj pasek baterii na ekranie ambient</string>
+    <string name="keyguard_show_battery_title">Pasek baterii podczas ładowania</string>
+    <string name="keyguard_show_battery_summary">Pokaż pasek baterii na ekranie Ambient podczas ładowania</string>
+    <string name="keyguard_show_battery_always_title">Zawsze pokazuj pasek baterii</string>
+    <string name="keyguard_show_battery_always_summary">Zawsze pokazuj pasek baterii na ekranie Ambient</string>
     <!-- Pulse Gravity and mirror options -->
+    <string name="pulse_custom_gravity_title">Grawitacja</string>
+    <string name="pulse_custom_gravity_bottom">Dół</string>
+    <string name="pulse_custom_gravity_top">Góra</string>
+    <string name="pulse_custom_gravity_center">Wyśrodkowany</string>
+    <string name="visualizer_center_mirrored_title">Wyśrodkowany z odbiciem lustrzanym</string>
+    <string name="visualizer_center_mirrored_summary">Ustaw wizualizacje w trybie wyśrodkowanym z odbiciem lustrzanym</string>
+    <string name="pulse_vertical_mirror_title">Pionowy z odbiciem lustrzanym</string>
+    <string name="pulse_vertical_mirror_summary">Utwórz następny puls i obróć w pionie</string>
     <!-- Ripple Effect on lockscreen -->
+    <string name="disable_fingerprint_ripple_effect_title">Wyłącz efekt Ripple</string>
+    <string name="disable_fingerprint_ripple_effect_summary">Wyłącz efekt Ripple przy odblokowaniu</string>
     <!-- Charging animation -->
+    <string name="charging_animation_title">Animacja ładowania</string>
+    <string name="charging_animation_summary">Wyświetl animację podczas podłączania urządzenia do ładowania</string>
     <!-- Statusbar Clock background chip -->
+    <string name="statusbar_clock_chip_title">Rozmycie tła</string>
+    <string name="statusbar_clock_chip_summary">Wyświetlaj rozmycie za zegarem</string>
+    <string name="solid_accent">Stały kolor akcentu</string>
+    <string name="outline">Obrys</string>
+    <string name="solid_accent_gradient">Stały kolor akcentu gradientowego</string>
+    <string name="solid_gradient_void">Gradientowa pustka</string>
+    <string name="solid_gradient_neumorph">Gradient Neumorf</string>
     <!-- Separate signal icons -->
     <!-- Android P animation style -->
     <!-- Monet settings -->
